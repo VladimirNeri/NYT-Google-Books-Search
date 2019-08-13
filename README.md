@@ -10,7 +10,7 @@ A React-based Google Books Search app. This assignment requires you to create Re
 
   * [Saved](Saved.png) - Renders all books saved to the Mongo database. User has an option to "View" the book, bringing them to the book on Google Books, or "Delete" a book, removing it from the Mongo database.
 
-## Book search will have each of the following fields:  
+### Book search will have each of the following fields:  
 
 * `title` - Title of the book from the Google Books API
 
@@ -22,7 +22,7 @@ A React-based Google Books Search app. This assignment requires you to create Re
 
 * `link` - The Book's information link as returned from the Google Books API
 
-## Technologies Used
+### Technologies Used
 * `React`
 * `Node`
 * `Express`
