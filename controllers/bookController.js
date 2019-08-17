@@ -1,6 +1,6 @@
 const db = require("../models");
 
-// Activity 11
+// Defining methods for the bookController Activity 11
 module.exports = {
   findAll: function(req, res) {
     db.Book.find(req.query)

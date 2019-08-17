@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const bookController = require("../../controllers/bookController");
 
-// Matches with "/api/books"
+// Matches with "/api/books" Activity 11
 router.route("/")
   .get(bookController.findAll)
   .post(bookController.create);
